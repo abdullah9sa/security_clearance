@@ -1,0 +1,468 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-03-02 10:07:34.365616",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_gf7v",
+  "first_name",
+  "family_name",
+  "column_break_lxai",
+  "father_name",
+  "clan",
+  "column_break_quap",
+  "third_name",
+  "column_break_drap",
+  "fourth_name",
+  "university_info_section",
+  "collage",
+  "formation",
+  "column_break_jtmc",
+  "application_reason",
+  "section_break_qcvg",
+  "given_name",
+  "gender",
+  "date_of_birth",
+  "place_of_birth",
+  "blood_type",
+  "column_break_xlnw",
+  "nationalism",
+  "nationality",
+  "religion",
+  "mother_full_name",
+  "mobile_number",
+  "email",
+  "section_break_szkm",
+  "amended_from",
+  "main_section",
+  "id",
+  "id_number",
+  "registry_number",
+  "page_number",
+  "place_of_issue",
+  "issue_date",
+  "column_break_asdb",
+  "nat_header",
+  "nationality_id",
+  "wallet_number",
+  "nationality_issue_place",
+  "nationality_issue_date",
+  "column_break_ozlf",
+  "residance",
+  "ration_card_number",
+  "ration_center_name_and_number",
+  "residance_card_number",
+  "residance_card_issue_date",
+  "residance_card_issue_place",
+  "section_break_wxxt",
+  "residance_history",
+  "social_status_section_section",
+  "social_status",
+  "partner_name",
+  "partner_birth_of_date",
+  "partner_birth_of_place",
+  "divorce_date",
+  "court_name",
+  "column_break_zvxu",
+  "partner_job",
+  "partner_job_location",
+  "partner_religion",
+  "marriage_date",
+  "partner_nationality",
+  "partner_nationalism",
+  "section_break_mkwa",
+  "marriage_history",
+  "communications_section",
+  "communications"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_gf7v",
+   "fieldtype": "Section Break",
+   "label": "Personal Information"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Security Clearance Application",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "family_name",
+   "fieldtype": "Data",
+   "label": "Family Name"
+  },
+  {
+   "fieldname": "column_break_lxai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "clan",
+   "fieldtype": "Data",
+   "label": "Clan"
+  },
+  {
+   "fieldname": "column_break_quap",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "third_name",
+   "fieldtype": "Data",
+   "label": "Third Name"
+  },
+  {
+   "fieldname": "column_break_drap",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fourth_name",
+   "fieldtype": "Data",
+   "label": "Fourth Name"
+  },
+  {
+   "fieldname": "section_break_szkm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_qcvg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "given_name",
+   "fieldtype": "Data",
+   "label": "Given Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "place_of_birth",
+   "fieldtype": "Date",
+   "label": "Place of Birth"
+  },
+  {
+   "fieldname": "blood_type",
+   "fieldtype": "Select",
+   "label": "Blood Type",
+   "options": "A+\nAB+\nB+\nO+\nA-\nAB-\nB-\nO-"
+  },
+  {
+   "fieldname": "column_break_xlnw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nationalism",
+   "fieldtype": "Select",
+   "label": "Nationalism",
+   "options": "A"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Link",
+   "label": "Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "religion",
+   "fieldtype": "Select",
+   "label": "Religion",
+   "options": "A"
+  },
+  {
+   "fieldname": "mother_full_name",
+   "fieldtype": "Data",
+   "label": "Mother Full Name"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Date",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "page_number",
+   "fieldtype": "Data",
+   "label": "Page Number"
+  },
+  {
+   "fieldname": "main_section",
+   "fieldtype": "Section Break",
+   "label": "Main"
+  },
+  {
+   "fieldname": "wallet_number",
+   "fieldtype": "Data",
+   "label": "Wallet Number"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Heading",
+   "label": "ID"
+  },
+  {
+   "fieldname": "id_number",
+   "fieldtype": "Data",
+   "label": "ID Number"
+  },
+  {
+   "fieldname": "registry_number",
+   "fieldtype": "Data",
+   "label": "Registry Number"
+  },
+  {
+   "fieldname": "place_of_issue",
+   "fieldtype": "Data",
+   "label": "Place of Issue"
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "label": "Issue Date"
+  },
+  {
+   "fieldname": "column_break_asdb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nat_header",
+   "fieldtype": "Heading",
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "nationality_id",
+   "fieldtype": "Data",
+   "label": "Nationality ID"
+  },
+  {
+   "fieldname": "nationality_issue_place",
+   "fieldtype": "Data",
+   "label": "Nationality Issue Place"
+  },
+  {
+   "fieldname": "nationality_issue_date",
+   "fieldtype": "Date",
+   "label": "Nationality Issue Date"
+  },
+  {
+   "fieldname": "column_break_ozlf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "residance",
+   "fieldtype": "Heading",
+   "label": "Residance"
+  },
+  {
+   "fieldname": "ration_card_number",
+   "fieldtype": "Data",
+   "label": "Ration Card Number"
+  },
+  {
+   "fieldname": "ration_center_name_and_number",
+   "fieldtype": "Data",
+   "label": "Ration Center name and Number"
+  },
+  {
+   "fieldname": "residance_card_number",
+   "fieldtype": "Data",
+   "label": "Residance Card Number"
+  },
+  {
+   "fieldname": "residance_card_issue_date",
+   "fieldtype": "Date",
+   "label": "Residance Card Issue Date"
+  },
+  {
+   "fieldname": "residance_card_issue_place",
+   "fieldtype": "Date",
+   "label": "Residance Card Issue Place"
+  },
+  {
+   "fieldname": "section_break_wxxt",
+   "fieldtype": "Section Break",
+   "label": "Residance"
+  },
+  {
+   "fieldname": "residance_history",
+   "fieldtype": "Table",
+   "label": "Residance History",
+   "options": "Residance History"
+  },
+  {
+   "fieldname": "social_status_section_section",
+   "fieldtype": "Section Break",
+   "label": "Social Status Section"
+  },
+  {
+   "fieldname": "social_status",
+   "fieldtype": "Select",
+   "label": "Social Status",
+   "options": "Single\nMarried\nWidow\nDivorced"
+  },
+  {
+   "fieldname": "partner_name",
+   "fieldtype": "Data",
+   "label": "Partner Name"
+  },
+  {
+   "fieldname": "partner_birth_of_date",
+   "fieldtype": "Date",
+   "label": "Partner Birth of Date"
+  },
+  {
+   "fieldname": "partner_job",
+   "fieldtype": "Data",
+   "label": "Partner Job"
+  },
+  {
+   "fieldname": "partner_job_location",
+   "fieldtype": "Data",
+   "label": "Partner Job Location"
+  },
+  {
+   "depends_on": "eval:doc.social_status == \"Divorced\"",
+   "fieldname": "divorce_date",
+   "fieldtype": "Date",
+   "label": "Divorce Date"
+  },
+  {
+   "depends_on": "eval:doc.social_status == \"Divorced\"",
+   "fieldname": "court_name",
+   "fieldtype": "Date",
+   "label": "Court Name"
+  },
+  {
+   "fieldname": "column_break_zvxu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "partner_religion",
+   "fieldtype": "Select",
+   "label": "Partner Religion",
+   "options": "A"
+  },
+  {
+   "fieldname": "partner_birth_of_place",
+   "fieldtype": "Date",
+   "label": "Partner Birth of Place"
+  },
+  {
+   "fieldname": "marriage_date",
+   "fieldtype": "Date",
+   "label": "Marriage Date"
+  },
+  {
+   "fieldname": "partner_nationality",
+   "fieldtype": "Link",
+   "label": "Partner Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "partner_nationalism",
+   "fieldtype": "Link",
+   "label": "Partner Nationalism",
+   "options": "Country"
+  },
+  {
+   "fieldname": "section_break_mkwa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "marriage_history",
+   "fieldtype": "Table",
+   "label": "Marriage History",
+   "options": "Marriage History"
+  },
+  {
+   "fieldname": "university_info_section",
+   "fieldtype": "Section Break",
+   "label": "University Info"
+  },
+  {
+   "fieldname": "collage",
+   "fieldtype": "Select",
+   "label": "Collage",
+   "options": "\u0627\u0644\u062a\u0631\u0628\u064a\u0629 \u0627\u0644\u0627\u0633\u0627\u0633\u064a\u0629\n\u0627\u0644\u062a\u0631\u0628\u064a\u0629\n\u0627\u0644\u062a\u0645\u0631\u064a\u0636\n\u0627\u0644\u0632\u0631\u0627\u0639\u0629"
+  },
+  {
+   "fieldname": "formation",
+   "fieldtype": "Select",
+   "label": "Formation",
+   "options": "\u0631\u0626\u0627\u0633\u0629 \u0627\u0644\u062c\u0627\u0645\u0639\u0629"
+  },
+  {
+   "fieldname": "application_reason",
+   "fieldtype": "Data",
+   "label": "Application Reason"
+  },
+  {
+   "fieldname": "column_break_jtmc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "communications_section",
+   "fieldtype": "Section Break",
+   "label": "Communications"
+  },
+  {
+   "fieldname": "communications",
+   "fieldtype": "Table",
+   "label": "Communications",
+   "options": "SC Communications"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-03-06 10:06:17.678548",
+ "modified_by": "Administrator",
+ "module": "Security Clearance",
+ "name": "Security Clearance Application",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

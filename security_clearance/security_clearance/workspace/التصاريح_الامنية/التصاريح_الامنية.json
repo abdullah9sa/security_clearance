@@ -1,0 +1,79 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"rdiIqNi3Nr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\u0627\u0644\u062a\u0635\u0627\u0631\u064a\u062d \u0627\u0644\u0627\u0645\u0646\u064a\u0629</span>\",\"col\":12}},{\"id\":\"S_6hQMfA56\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0627\u0644\u0645\u0633\u062a\u0646\u062f\u0627\u062a\",\"col\":4}}]",
+ "creation": "2025-05-06 19:54:08.325199",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "folder-open",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "\u0627\u0644\u062a\u0635\u0627\u0631\u064a\u062d \u0627\u0644\u0627\u0645\u0646\u064a\u0629",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0645\u0633\u062a\u0646\u062f\u0627\u062a",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u062a\u0635\u0627\u0631\u064a\u062d \u0627\u0644\u0627\u0645\u0646\u064a\u0629",
+   "link_count": 0,
+   "link_to": "Security Clearance Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u062a\u0635\u0627\u0631\u064a\u062d \u0627\u0644\u0627\u0645\u0646\u064a\u0629 \u0644\u0644\u0634\u0631\u0643\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Company Secuirty Clearance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0627\u0642\u0636\u064a\u0629",
+   "link_count": 0,
+   "link_to": "Kaza",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0645\u062d\u0627\u0641\u0638\u0627\u062a",
+   "link_count": 0,
+   "link_to": "Province",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-05-06 19:56:28.582648",
+ "modified_by": "Administrator",
+ "module": "Security Clearance",
+ "name": "\u0627\u0644\u062a\u0635\u0627\u0631\u064a\u062d \u0627\u0644\u0627\u0645\u0646\u064a\u0629",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [],
+ "title": "\u0627\u0644\u062a\u0635\u0627\u0631\u064a\u062d \u0627\u0644\u0627\u0645\u0646\u064a\u0629"
+}

@@ -1,0 +1,167 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-03-06 10:07:12.372739",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company_arabic_name",
+  "company_english_name",
+  "company_nationality",
+  "company_location",
+  "company_email",
+  "company_website",
+  "column_break_nieh",
+  "company_manager_name",
+  "company_manager_nationality",
+  "company_managing_director_name",
+  "company_managing_director_nationaility",
+  "section_break_zwrz",
+  "company_specialization",
+  "company_registration_number",
+  "practice_permission_number",
+  "practice_permission_date",
+  "column_break_hbop",
+  "latest_permission_update",
+  "company_lawyer_name",
+  "company_lawyer_contact",
+  "section_break_hmbj",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_arabic_name",
+   "fieldtype": "Data",
+   "label": "Company Arabic Name"
+  },
+  {
+   "fieldname": "company_english_name",
+   "fieldtype": "Data",
+   "label": "Company English Name"
+  },
+  {
+   "fieldname": "company_nationality",
+   "fieldtype": "Link",
+   "label": "Company Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "company_location",
+   "fieldtype": "Data",
+   "label": "Company Location"
+  },
+  {
+   "fieldname": "company_email",
+   "fieldtype": "Data",
+   "label": "Company Email"
+  },
+  {
+   "fieldname": "company_website",
+   "fieldtype": "Data",
+   "label": "Company Website"
+  },
+  {
+   "fieldname": "column_break_nieh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_manager_name",
+   "fieldtype": "Data",
+   "label": "Company Manager Name"
+  },
+  {
+   "fieldname": "company_manager_nationality",
+   "fieldtype": "Link",
+   "label": "Company Manager Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "company_managing_director_name",
+   "fieldtype": "Data",
+   "label": "Company Managing Director Name"
+  },
+  {
+   "fieldname": "company_managing_director_nationaility",
+   "fieldtype": "Link",
+   "label": "Company Managing Director Nationaility",
+   "options": "Country"
+  },
+  {
+   "fieldname": "section_break_zwrz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_specialization",
+   "fieldtype": "Data",
+   "label": "Company Specialization"
+  },
+  {
+   "fieldname": "company_registration_number",
+   "fieldtype": "Data",
+   "label": "Company Registration Number"
+  },
+  {
+   "fieldname": "practice_permission_number",
+   "fieldtype": "Data",
+   "label": "Practice Permission Number"
+  },
+  {
+   "fieldname": "practice_permission_date",
+   "fieldtype": "Date",
+   "label": "Practice Permission Date"
+  },
+  {
+   "fieldname": "column_break_hbop",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_permission_update",
+   "fieldtype": "Date",
+   "label": "Latest Permission Update"
+  },
+  {
+   "fieldname": "company_lawyer_name",
+   "fieldtype": "Data",
+   "label": "Company Lawyer Name"
+  },
+  {
+   "fieldname": "company_lawyer_contact",
+   "fieldtype": "Data",
+   "label": "Company Lawyer Contact"
+  },
+  {
+   "fieldname": "section_break_hmbj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-06 10:13:15.952757",
+ "modified_by": "Administrator",
+ "module": "Security Clearance",
+ "name": "Company Secuirty Clearance",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-04 10:29:39.529051",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "province",
+  "kaza",
+  "nahia",
+  "mahala",
+  "zokak",
+  "house",
+  "start_date_of_residance",
+  "end_date_of_residance"
+ ],
+ "fields": [
+  {
+   "fieldname": "province",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Province",
+   "options": "Province"
+  },
+  {
+   "fieldname": "kaza",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Kaza",
+   "options": "Kaza"
+  },
+  {
+   "fieldname": "nahia",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nahia"
+  },
+  {
+   "fieldname": "mahala",
+   "fieldtype": "Data",
+   "label": "Mahala"
+  },
+  {
+   "fieldname": "zokak",
+   "fieldtype": "Data",
+   "label": "Zokak"
+  },
+  {
+   "fieldname": "house",
+   "fieldtype": "Data",
+   "label": "House"
+  },
+  {
+   "fieldname": "start_date_of_residance",
+   "fieldtype": "Date",
+   "label": "Start Date of Residance"
+  },
+  {
+   "fieldname": "end_date_of_residance",
+   "fieldtype": "Date",
+   "label": "End Date of Residance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-03-04 10:34:38.974408",
+ "modified_by": "Administrator",
+ "module": "Security Clearance",
+ "name": "Residance History",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

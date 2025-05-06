@@ -1,9 +1,19 @@
 app_name = "security_clearance"
 app_title = "Security Clearance"
-app_publisher = "k"
-app_description = "k"
-app_email = "k@q"
+app_publisher = "Telafer University"
+app_description = "Telafer University"
+app_email = "uot@edu.iq"
 app_license = "mit"
+
+fixtures = [
+    {
+        "dt": "Translation",
+    },
+    {
+        "dt": "Province",
+    }
+]
+
 
 # Apps
 # ------------------

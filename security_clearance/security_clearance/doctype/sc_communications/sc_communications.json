@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-06 10:00:49.383589",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sent_document_number",
+  "sent_document_date",
+  "received_document_number",
+  "received_document_date",
+  "receive_status",
+  "clearance_type",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "sent_document_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sent Document Number"
+  },
+  {
+   "fieldname": "sent_document_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Sent Document Date"
+  },
+  {
+   "fieldname": "received_document_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Received Document Number"
+  },
+  {
+   "fieldname": "received_document_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Received Document Date"
+  },
+  {
+   "fieldname": "receive_status",
+   "fieldtype": "Select",
+   "label": "Receive Status",
+   "options": "Accepted\nRejected"
+  },
+  {
+   "fieldname": "clearance_type",
+   "fieldtype": "Data",
+   "label": "Clearance Type"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-06 20:13:58.763635",
+ "modified_by": "Administrator",
+ "module": "Security Clearance",
+ "name": "SC Communications",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
