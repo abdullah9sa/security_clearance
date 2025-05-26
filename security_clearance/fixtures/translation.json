@@ -1077,5 +1077,83 @@
   "name": "ddkk4eqr38",
   "source_text": "Company Lawyer Contact",
   "translated_text": "معلومات تواصل المحامي"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-05-26 11:50:44.532256",
+  "name": "cfdofaetlg",
+  "source_text": "Full Name With Title",
+  "translated_text": "الاسم الرباعي و اللقب"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-05-26 11:50:58.959341",
+  "name": "cjtin36nef",
+  "source_text": "Formation",
+  "translated_text": "التشكيل"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-05-26 11:51:14.087531",
+  "name": "cokt9dc2fp",
+  "source_text": "Document Number",
+  "translated_text": "رقم الاستمارة"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-05-26 11:51:29.315410",
+  "name": "ctdcuknsj3",
+  "source_text": "Clearance Type",
+  "translated_text": "نوع التصريح"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-05-26 11:52:14.050177",
+  "name": "dbcui1gp3l",
+  "source_text": "SC Communications",
+  "translated_text": "الصادر و الوارد"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-05-26 11:54:18.995454",
+  "name": "eiddj2fl6r",
+  "source_text": "Secuirty Clearances",
+  "translated_text": "التصاريح الامنية"
  }
 ]
