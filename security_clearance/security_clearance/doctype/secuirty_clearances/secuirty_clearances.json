@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2025-05-26 11:45:24.406595",
  "doctype": "DocType",
@@ -68,7 +69,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-10 08:56:22.240190",
+ "modified": "2025-09-10 09:07:40.234312",
  "modified_by": "Administrator",
  "module": "Security Clearance",
  "name": "Secuirty Clearances",
