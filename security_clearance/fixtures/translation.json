@@ -1155,5 +1155,31 @@
   "name": "eiddj2fl6r",
   "source_text": "Secuirty Clearances",
   "translated_text": "التصاريح الامنية"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-09-10 08:45:57.447882",
+  "name": "9bchl26ka4",
+  "source_text": "Office Sent Document Number",
+  "translated_text": "رقم الكتاب المرسل للمكتب"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-09-10 08:46:43.085342",
+  "name": "9sugnugj8l",
+  "source_text": "Office Sent Document Date",
+  "translated_text": "تاريخ الكتاب المرسل للمكتب"
  }
 ]

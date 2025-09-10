@@ -7,6 +7,7 @@
  "field_order": [
   "full_name_with_title",
   "document_number",
+  "justice",
   "column_break_ovbs",
   "formation",
   "clearance_type",
@@ -57,12 +58,17 @@
    "fieldtype": "Table",
    "label": "SC Communications",
    "options": "SC Communications"
+  },
+  {
+   "fieldname": "justice",
+   "fieldtype": "Data",
+   "label": "Justice"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-26 12:02:26.513499",
+ "modified": "2025-09-10 08:56:22.240190",
  "modified_by": "Administrator",
  "module": "Security Clearance",
  "name": "Secuirty Clearances",

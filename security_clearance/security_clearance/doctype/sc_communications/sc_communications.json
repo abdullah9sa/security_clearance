@@ -10,6 +10,8 @@
   "sent_document_date",
   "received_document_number",
   "received_document_date",
+  "office_sent_document_number",
+  "office_sent_document_date",
   "receive_status",
   "clearance_type",
   "notes"
@@ -54,17 +56,30 @@
    "fieldname": "notes",
    "fieldtype": "Small Text",
    "label": "Notes"
+  },
+  {
+   "fieldname": "office_sent_document_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Office Sent Document Number"
+  },
+  {
+   "fieldname": "office_sent_document_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Office Sent Document Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-05-06 20:13:58.763635",
+ "modified": "2025-09-10 08:44:39.473582",
  "modified_by": "Administrator",
  "module": "Security Clearance",
  "name": "SC Communications",
  "owner": "Administrator",
  "permissions": [],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
